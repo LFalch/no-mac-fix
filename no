@@ -212,15 +212,17 @@ xkb_symbols "mac" {
     key <AE08>	{ [         8,  parenleft,  bracketleft,    braceleft ]	};
     key <AE09>	{ [         9, parenright, bracketright,   braceright ]	};
     key <AE10>	{ [         0,      equal,        U2248,     notequal ]	};
+    
+    key <AE11>	{ [      plus,   question,    plusminus, questiondown ]	};
     key <AE12>	{ [dead_acute, dead_grave,        acute,  dead_ogonek ]	};
     
     key <AD01>  { [         q,          Q,        U2022,       degree ] };
     key <AD02>  { [         w,          W,  Greek_OMEGA,  doubleacute ] };
     key <AD03>	{ [         e,          E,       eacute,       Eacute ]	};
-    key <AD04>  { [         r,          R ] };
+    key <AD04>  { [         r,          R,     NoSymbol,     NoSymbol ] };
     key <AD05>  { [         t,          T,       dagger, doubledagger ] };
     key <AD06>  { [         y,          Y,           mu,        U02DC ] };
-    key <AD07>  { [         u,          U,    udiaresis,    Udiaresis ] };
+    key <AD07>  { [         u,          U,   udiaeresis,   Udiaeresis ] };
     key <AD08>  { [         i,          I,     idotless,        U02C6 ] };
     key <AD09>  { [         o,          O,           oe,           OE ] };
     key <AD10>  { [         p,          P,     Greek_pi,     Greek_PI ] };
